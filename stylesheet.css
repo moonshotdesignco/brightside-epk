@@ -1,0 +1,109 @@
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: white;
+	color: #202020;
+}
+
+a {
+	color: inherit;
+}
+
+a:hover {
+	color: #a0a0a0;
+}
+
+#container {
+	width: 100%;
+	margin: auto;
+	padding-bottom: 2em;
+}
+
+#logo {
+	width: 100%;
+	margin: 1em auto;
+}
+
+#group {
+	width: 100%;
+	margin: 0 auto 2em;
+}
+
+#bio, #stats, #music {
+	width: 100%;
+	margin: 0 auto 2em;
+}
+
+#bio p {
+	text-indent: 3rem;
+	text-align: justify;
+}
+
+#logo img, img#header {
+	width: 100%;
+}
+
+img.roll {
+	box-sizing: border-box;
+	width: calc(50% - 0.5rem);
+}
+
+img.roll#first {
+	margin-right: 1rem;
+}
+
+img.body {
+	width: 100%;
+}
+
+#stats, #music {
+	text-align: center;
+}
+
+.musicplayer {
+	width: 100%;
+	height: 450px;
+}
+
+.videoplayer {
+	width: 100%;
+	height: 56.25vw;
+}
+
+#endorsements {
+	margin: 5em auto 2em;
+}
+
+#copyright {
+	text-align: center;
+	font-size: 0.66em;
+	font-style: italic;
+	color: #c0c0c0;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#copyright > p {
+	margin: auto;
+}
+
+
+
+@media screen and (orientation: landscape) {
+	
+	#container {
+		width: 85%;
+	}
+
+	#logo {
+		width: 50%;
+	}
+
+	.videoplayer {
+		height: 47.8125vw;
+	}
+
+}
